@@ -11,7 +11,7 @@ machine-learning-diabetes-project/
 │   ├── diabetes.csv            # raw dataset
 │   └── cleaned_dataset.csv     # cleaned/processed dataset (generated, gitignored)
 │
-├── diabetes_prediction_models.ipynb
+├── diabetes-prediction-ml.ipynb
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ## Workflow
 
-The notebook (`diabetes_prediction_models.ipynb`) is organized into the following sections:
+The notebook (`diabetes-prediction-ml.ipynb`) is organized into the following sections:
 
 ### 1. Imports
 Loads `pandas`, `numpy`, `matplotlib`, `seaborn`, and the relevant `scikit-learn` modules (`MinMaxScaler`, `train_test_split`, classification metrics, and the model classes listed below).
